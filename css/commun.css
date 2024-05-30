@@ -61,7 +61,7 @@
 
 /* Styles for the overlay */
 #overlay {
-  background-image: url("/img/paterneMarbleblancDoree.png");
+  background-image: url("/img/paterneMarbleblancDoree.jpg");
   background-size: cover;
   background-position: top;
   position: fixed;
@@ -91,7 +91,7 @@ body{
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   background-size: cover;
-  background-image: url("/img/paterneMarbleblancDoree.png");
+  background-image: url("/img/paterneMarbleblancDoree.jpg");
 
 }
 
@@ -115,7 +115,7 @@ span {
 }
 
 #principale{
-  background-image: url("/img/paterneMarbleblancDoree.png");
+  background-image: url("/img/paterneMarbleblancDoree.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;

@@ -18,7 +18,6 @@ $(document).ready(function() {
             top: '-50px',
             width: '30px', // Taille initiale
             height: '30px', // Taille initiale
-            position: 'fixed'
         });
 
         // Modifier la durée de l'animation (en millisecondes) ici
