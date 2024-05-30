@@ -1,13 +1,24 @@
 $(document).ready(function() {
+    // URLs des deux images de Maguen David
+    const starImages = [
+        'img/maguenDavidDoree.png',
+        'img/maguenDavidNoireDoree.png'
+    ];
+
     function createStarOfDavid() {
+        // Sélectionner aléatoirement l'une des deux images
+        const starImage = starImages[Math.floor(Math.random() * starImages.length)];
+
         const star = $('<div class="star-of-david"></div>');
         $('#principale').append(star);
 
         star.css({
+            backgroundImage: `url(${starImage})`,
             left: Math.random() * $(window).width() + 'px',
             top: '-50px',
             width: '30px', // Taille initiale
-            height: '30px' // Taille initiale
+            height: '30px', // Taille initiale
+            position: 'fixed'
         });
 
         // Modifier la durée de l'animation (en millisecondes) ici
